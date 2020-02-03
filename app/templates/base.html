@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR" itemscope="itemscope" itemtype="http://schema.org/WebSite">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    {% if title %}
+        <title>{{ title }} - Microblog</title>
+    {% else %}
+        <title>Welcome to Microblog</title>
+    {% endif %}
+</head>
+<body>
+    <div>
+        Microblog:
+        <a href="/index">Home</a>
+    </div>
+    {% block content %}{% endblock content %}
+</body>
+</html>
