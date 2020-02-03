@@ -1,2 +1,2 @@
 # microblog
-A Falsk study case
+A Flask study case
